@@ -1,0 +1,21 @@
+#mainContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+    justify-content: space-around;
+    padding: 20px;
+}
+
+
+#xpContainer, #usernameContainer, #levelContainer {
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+svg {
+    max-width: 100%;
+    height: auto;
+}
+
